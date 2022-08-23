@@ -33,8 +33,6 @@
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_main_page.xml" value="0.2957427536231884" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_new_medications.xml" value="0.5" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_ocr_faq.xml" value="0.5" />
-        <entry key="..\:/RemindMed/app/src/main/res/layout/activity_optical_character_recognition.xml" value="0.28940217391304346" />
-        <entry key="..\:/RemindMed/app/src/main/res/layout/activity_ocr_faq.xml" value="0.5" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_optical_character_recognition.xml" value="0.33" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_optical_character_recognition_one.xml" value="0.28940217391304346" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_pdf_blood_sugar.xml" value="0.20018115942028986" />
@@ -58,7 +56,6 @@
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_type_unit_faq.xml" value="0.2375" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/activity_user_information.xml" value="0.33" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/blood_pressure_dialog.xml" value="0.5200553250345782" />
-        <entry key="..\:/RemindMed/app/src/main/res/layout/activity_user_information.xml" value="0.33" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/items_today_measurements.xml" value="0.17831813576494426" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/items_today_medication.xml" value="0.33" />
         <entry key="..\:/RemindMed/app/src/main/res/layout/list_item_single.xml" value="0.20520833333333333" />
@@ -267,10 +264,13 @@
         <entry key="..\:/Users/gabri/AndroidStudioProjects/RemindMed/app/src/main/res/layout/activity_guest_faq.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gabri/AndroidStudioProjects/RemindMed/app/src/main/res/layout/activity_guest_logout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gabri/AndroidStudioProjects/RemindMed/app/src/main/res/layout/activity_user_information.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/josep/AndroidStudioProjects/RemindMedV2.0/app/src/main/res/layout/activity_alarm_notification.xml" value="0.264" />
+        <entry key="..\:/Users/josep/AndroidStudioProjects/RemindMedV2.0/app/src/main/res/layout/activity_instruction_slideone.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/josep/AndroidStudioProjects/RemindMedV2.0/app/src/main/res/layout/activity_landing_page.xml" value="0.2" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
