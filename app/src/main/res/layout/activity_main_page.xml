@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logov2" />
+        app:srcCompat="@drawable/logov2"/>
 
     <Button
         android:id="@+id/createacc_button"
