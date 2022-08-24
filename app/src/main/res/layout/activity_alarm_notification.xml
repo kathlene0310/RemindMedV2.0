@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/viga"
-        android:text="TRY COMMIT2!"
+        android:text="TRY COMMIT2asdasd!"
         android:textColor="#000000"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/snooze_button"
