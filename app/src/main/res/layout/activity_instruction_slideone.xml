@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".instruction_slideone">
 
     <ImageView
@@ -42,7 +43,7 @@
         android:fontFamily="@font/viga"
         android:text="It has an alarm that will remind you that you need to take your medicine"
         android:textAlignment="center"
-        android:textColor="#E73927"
+        android:textColor="#000000"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

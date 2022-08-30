@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".Guest_FAQ">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="92dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +23,7 @@
         android:id="@+id/imageBack"
         android:layout_width="40dp"
         android:layout_height="68dp"
-        android:backgroundTint="#E73927"
+        android:backgroundTint="#2e276c"
         android:onClick="GuestFAQ_Faq"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".today">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="421dp"
         android:layout_height="92dp"
-        android:layout_marginBottom="20dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -92,7 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:layout_marginBottom="108dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -155,7 +156,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
-        app:backgroundTint="#FFFFFF"
+        app:backgroundTint="@android:color/transparent"
         app:fabSize="normal"
         app:layout_constraintBottom_toTopOf="@+id/textViewHome"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -249,7 +250,7 @@
             android:layout_marginStart="9dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="386dp"
-            app:cardBackgroundColor="#FDCB00"
+            app:cardBackgroundColor="#2e276c"
             app:cardCornerRadius="20dp"
             app:cardMaxElevation="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -266,6 +267,7 @@
                     android:layout_height="match_parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent">
 
                     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -302,7 +304,7 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginBottom="64dp"
                     android:text="Daily"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -315,7 +317,7 @@
                     android:layout_marginEnd="35dp"
                     android:layout_marginBottom="8dp"
                     android:text="Medicine Name"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="25sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/dosage_one"
@@ -329,7 +331,7 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginBottom="64dp"
                     android:text="Time"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/medicineNameTxt" />
@@ -341,7 +343,7 @@
                     android:layout_marginStart="161dp"
                     android:layout_marginBottom="25dp"
                     android:text="Dosage"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />

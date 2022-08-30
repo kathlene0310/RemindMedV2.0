@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".edit_delete_temperature">
 
 
@@ -30,7 +31,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="92dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +43,7 @@
         android:id="@+id/imageBack_temperature"
         android:layout_width="64dp"
         android:layout_height="68dp"
-        android:backgroundTint="#E73927"
+        android:backgroundTint="#2e276c"
         android:onClick="edtemp_To_home"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -146,7 +147,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="13dp"
         android:background="@drawable/edittext3"
-        android:backgroundTint="#FDCB00"
+        android:backgroundTint="#2e276c"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frequency_txt1" />
 
