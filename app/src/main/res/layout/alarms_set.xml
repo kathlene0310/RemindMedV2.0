@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:cardBackgroundColor="#FDCB00"
+        app:cardBackgroundColor="#2e276c"
         app:layout_constraintDimensionRatio="1:.3"
         app:cardPreventCornerOverlap="false"
         app:cardUseCompatPadding="true"
@@ -72,7 +72,7 @@
                 android:layout_height="0dp"
                 android:text="Edit"
                 android:textSize="10dp"
-                android:background="#E73927"
+                android:background="#afd6f7"
                 android:fontFamily="@font/viga"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintDimensionRatio="1:.5"

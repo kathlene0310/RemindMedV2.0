@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".intake_confirmation">
 
 
@@ -11,7 +12,7 @@
         android:id="@+id/toolbar"
         android:layout_width="421dp"
         android:layout_height="92dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +26,7 @@
         android:layout_height="68dp"
         android:layout_marginEnd="356dp"
         android:layout_marginBottom="24dp"
-        android:backgroundTint="#E73927"
+        android:backgroundTint="#2e276c"
         android:onClick="intake_To_Today"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,7 +120,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        app:cardBackgroundColor="#FDCB00"
+        app:cardBackgroundColor="#2e276c"
         app:cardCornerRadius="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/time_txt1">
@@ -148,7 +149,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="13dp"
-        app:cardBackgroundColor="#FDCB00"
+        app:cardBackgroundColor="#2e276c"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toTopOf="@+id/view6"
         app:layout_constraintStart_toStartOf="parent"

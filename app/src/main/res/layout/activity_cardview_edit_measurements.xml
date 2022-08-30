@@ -12,7 +12,7 @@
         android:layout_marginStart="17dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        app:cardBackgroundColor="#FDCB00"
+        app:cardBackgroundColor="#2e276c"
         app:cardCornerRadius="20dp"
         app:cardMaxElevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
                 android:text="Measurement name"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,7 +42,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:text="start date"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/edit_measurement_name" />
 
@@ -53,7 +53,7 @@
                 android:layout_marginStart="6dp"
                 android:layout_marginTop="8dp"
                 android:text="end date"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toEndOf="@+id/start_date_edit"
                 app:layout_constraintTop_toBottomOf="@+id/edit_measurement_name" />
 
@@ -64,7 +64,7 @@
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="7dp"
                 android:text="time"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/start_date_edit" />
 
@@ -74,7 +74,7 @@
                 android:layout_height="33dp"
                 android:layout_marginStart="128dp"
                 android:layout_marginTop="24dp"
-                android:background="#E73927"
+                android:background="#afd6f7"
                 android:fontFamily="@font/viga"
                 android:text="Edit"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
     tools:context=".edit_delete_schedule_activity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -71,7 +72,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="92dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -127,7 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:layout_marginBottom="100dp"
-        android:background="#E73927"
+        android:background="#2e276c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -257,7 +258,7 @@
             android:layout_marginStart="14dp"
             android:layout_marginTop="114dp"
             android:layout_marginEnd="14dp"
-            app:cardBackgroundColor="#FDCB00"
+            app:cardBackgroundColor="#2e276c"
             app:cardCornerRadius="20dp"
             app:cardMaxElevation="20dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -274,7 +275,7 @@
                     android:layout_height="35dp"
                     android:layout_marginTop="36dp"
                     android:layout_marginEnd="28dp"
-                    android:background="#E73927"
+                    android:background="#afd6f7"
                     android:fontFamily="@font/viga"
                     android:text="Edit"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"

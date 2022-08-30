@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#FDCB00"
+        app:cardBackgroundColor="#2e276c"
         app:cardCornerRadius="20dp"
         app:cardMaxElevation="20dp"
         app:layout_constraintStart_toStartOf="parent"
