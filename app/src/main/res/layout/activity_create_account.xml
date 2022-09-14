@@ -14,7 +14,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="sans-serif"
         android:text="Create an Account"
-        android:textColor="#000000"
+        android:textColor="#113191"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@id/guideline11"
@@ -27,6 +27,7 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/edit_round"
         android:fontFamily="@font/viga"
+        android:textColor="#FFFF"
         android:text="Submit"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="22sp"
@@ -45,7 +46,7 @@
         android:fontFamily="@font/viga"
         android:onClick="Create_To_Main"
         android:text="Back"
-        android:textColor="#000000"
+        android:textColor="#0C3778"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -55,7 +56,7 @@
         android:id="@+id/first_nameBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/edittext3"
+
         android:ems="10"
         android:hint="First Name"
         android:inputType="textEmailAddress"
@@ -72,7 +73,7 @@
         android:id="@+id/last_nameBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/edittext3"
+
         android:ems="10"
         android:hint="Last Name"
         android:inputType="textEmailAddress"
@@ -89,7 +90,7 @@
         android:id="@+id/emailBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/edittext3"
+
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
@@ -107,7 +108,7 @@
         android:id="@+id/passwordBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/edittext3"
+
         android:ems="10"
         android:paddingStart="10dp"
         android:paddingTop="2dp"
@@ -136,7 +137,7 @@
         android:id="@+id/confimpassword"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/edittext3"
+
         android:ems="10"
         android:inputType="textPassword"
         android:paddingStart="10dp"
