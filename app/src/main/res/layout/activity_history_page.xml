@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserratbold"
         android:text="Clear All"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -33,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@id/guideline51"
-        app:srcCompat="@drawable/today" />
+        app:srcCompat="@drawable/todayiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/home_history_two"
@@ -49,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/hoome" />
+        app:srcCompat="@drawable/homeiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/home_historybtn_two"
@@ -64,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline51"
-        app:srcCompat="@drawable/ic_history" />
+        app:srcCompat="@drawable/historyiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/profile_history_two"
@@ -80,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profileiconv2" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -99,8 +100,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:fontFamily="@font/viga"
-        android:text="Welcome"
+        android:fontFamily="@font/montserratbold"
+        android:text="Welcome,"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:text="name"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -131,10 +132,10 @@
         android:id="@+id/imageView6"
         android:layout_width="157dp"
         android:layout_height="90dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="18dp"
         app:layout_constraintStart_toEndOf="@+id/firstnameview"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pills" />
+        app:srcCompat="@drawable/pillsv2" />
 
     <View
         android:id="@+id/view"
@@ -150,7 +151,7 @@
     <View
         android:id="@+id/view2"
         android:layout_width="wrap_content"
-        android:layout_height="2dp"
+        android:layout_height="5dp"
         android:background="#2e276c"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -162,7 +163,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
+        android:fontFamily="@font/montserratbold"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -174,8 +176,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Today"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
@@ -186,8 +189,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
@@ -198,8 +202,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profile"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline8"
@@ -210,10 +215,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:gravity="center"
         android:text="Medication"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline84"
         app:layout_constraintStart_toStartOf="@+id/guideline49"
@@ -233,11 +238,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:gravity="center"
         android:onClick="medHistory_to_measurement"
         android:text="Measurement"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline50"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
