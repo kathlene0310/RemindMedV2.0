@@ -14,8 +14,9 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="31dp"
         android:onClick="HistoryHM_To_PDF"
+        android:fontFamily="@font/montserratbold"
         android:text="PDF"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -37,8 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:fontFamily="@font/viga"
-        android:text="Welcome"
+        android:fontFamily="@font/montserratbold"
+        android:text="Welcome, "
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:text="name"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -69,11 +70,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:gravity="center"
         android:onClick="HistoryHM_To_HistoryM"
         android:text="Medication"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline85"
         app:layout_constraintStart_toStartOf="@+id/guideline40"
@@ -83,21 +84,21 @@
         android:id="@+id/imageView6"
         android:layout_width="157dp"
         android:layout_height="90dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toTopOf="@+id/measurementsView"
         app:layout_constraintStart_toEndOf="@+id/firstnameview"
-        app:srcCompat="@drawable/pills" />
+        app:srcCompat="@drawable/pillsv2" />
 
     <TextView
         android:id="@+id/measurementsView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:text="Measurement"
         android:gravity="center"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="25sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline41"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
@@ -129,7 +130,8 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="8dp"
         android:text="Clear All"
-        android:textColor="#000000"
+        android:fontFamily="@font/montserratbold"
+        android:textColor="#2e276c"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
@@ -150,8 +152,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
@@ -162,8 +165,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Today"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
@@ -174,8 +178,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="History"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="18sp"
+        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
@@ -187,7 +192,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Profile"
-        android:textColor="#000000"
+        android:fontFamily="@font/montserratbold"
+        android:textColor="#2e276c"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -208,7 +214,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/hoome" />
+        app:srcCompat="@drawable/homeiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/Today_historyH"
@@ -223,7 +229,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/today" />
+        app:srcCompat="@drawable/todayiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/History_health"
@@ -238,7 +244,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toEndOf="@+id/guideline7"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/ic_history" />
+        app:srcCompat="@drawable/historyiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/Profile_historyH"
@@ -253,7 +259,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profileiconv2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline40"
