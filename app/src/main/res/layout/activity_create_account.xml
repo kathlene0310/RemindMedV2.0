@@ -9,16 +9,19 @@
 
     <TextView
         android:id="@+id/create_account"
-        android:layout_width="188dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="24dp"
-        android:fontFamily="sans-serif"
-        android:text="Create an Account"
-        android:textColor="#113191"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@id/guideline11"
-        app:layout_constraintTop_toBottomOf="@+id/backTxt" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CREATE ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
 
     <Button
         android:id="@+id/btnSign"
@@ -26,7 +29,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/edit_round"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:textColor="#FFFF"
         android:text="Submit"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -43,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="3dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:onClick="Create_To_Main"
         android:text="Back"
         android:textColor="#0C3778"
@@ -52,10 +55,50 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+    <ImageView
+        android:id="@+id/firstnameicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="272dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nameiconv2" />
+
+    <ImageView
+        android:id="@+id/emialicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameicon"
+        app:srcCompat="@drawable/emailicon" />
+
+    <ImageView
+        android:id="@+id/passwordicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emialicon"
+        app:srcCompat="@drawable/passwordiconv2" />
+
     <EditText
         android:id="@+id/first_nameBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:fontFamily="@font/glacialreg"
 
         android:ems="10"
         android:hint="First Name"
@@ -79,10 +122,12 @@
         android:inputType="textEmailAddress"
         android:paddingStart="10dp"
         android:paddingRight="10dp"
+        android:fontFamily="@font/glacialreg"
+
         app:layout_constraintBottom_toTopOf="@+id/emailBox"
         app:layout_constraintDimensionRatio="7:1"
         app:layout_constraintEnd_toEndOf="@id/guideline12"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@id/guideline11"
         app:layout_constraintTop_toBottomOf="@+id/first_nameBox" />
 
@@ -90,6 +135,7 @@
         android:id="@+id/emailBox"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:fontFamily="@font/glacialreg"
 
         android:ems="10"
         android:hint="Email"
@@ -128,7 +174,8 @@
             android:layout_height="40dp"
             android:background="@drawable/background_transparent"
             android:hint="Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:fontFamily="@font/glacialreg"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -156,7 +203,8 @@
             android:layout_height="40dp"
             android:background="@drawable/background_transparent"
             android:hint="Confirm Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:fontFamily="@font/glacialreg"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -168,19 +216,18 @@
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toEndOf="@id/guideline14"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/create_account"
-        app:layout_constraintStart_toStartOf="@id/guideline13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/doctorr" />
+
+        app:srcCompat="@drawable/choose_user" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.05" />
+        app:layout_constraintGuide_percent="0.14" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline12"
