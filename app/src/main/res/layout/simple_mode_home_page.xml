@@ -166,8 +166,8 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="Home_To_Home"
-        app:backgroundTint="#82B1FF"
-        app:srcCompat="@drawable/pillicon"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/homeiconv2"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="643dp" />
 
@@ -178,10 +178,10 @@
         android:layout_marginBottom="32dp"
         android:clickable="true"
         android:focusable="true"
-        app:backgroundTint="#82B1FF"
+        app:backgroundTint="#FFFFFF"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/profileicon"
+        app:srcCompat="@drawable/profileiconv2"
         tools:layout_editor_absoluteX="259dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

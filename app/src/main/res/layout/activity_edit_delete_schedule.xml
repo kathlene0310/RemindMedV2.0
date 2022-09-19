@@ -14,10 +14,10 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="Home_To_Home"
-        app:backgroundTint="#82B1FF"
-        app:srcCompat="@drawable/pillicon"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="638dp" />
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/homeiconv2"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="639dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/today_history"
@@ -26,9 +26,9 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="Home_To_Today"
-        app:backgroundTint="#82B1FF"
+        app:backgroundTint="#FFFFFF"
         app:fabSize="normal"
-        app:srcCompat="@drawable/todayicon"
+        app:srcCompat="@drawable/todayiconv2"
         tools:layout_editor_absoluteX="105dp"
         tools:layout_editor_absoluteY="637dp" />
 
@@ -39,9 +39,9 @@
         android:clickable="true"
         android:focusable="true"
         android:onClick="Home_To_History"
-        app:backgroundTint="#82B1FF"
+        app:backgroundTint="#FFFFFF"
         app:fabSize="normal"
-        app:srcCompat="@drawable/historyicon"
+        app:srcCompat="@drawable/historyiconv2"
         tools:layout_editor_absoluteX="183dp"
         tools:layout_editor_absoluteY="637dp" />
 
@@ -50,8 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:backgroundTint="#82B1FF"
-        app:srcCompat="@drawable/chaticon"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/chaticonv2"
         tools:layout_editor_absoluteX="258dp"
         tools:layout_editor_absoluteY="638dp" />
 
@@ -62,10 +62,10 @@
         android:layout_marginBottom="36dp"
         android:clickable="true"
         android:focusable="true"
-        app:backgroundTint="#82B1FF"
+        app:backgroundTint="#FFFFFF"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/profileicon"
+        app:srcCompat="@drawable/profileiconv2"
         tools:layout_editor_absoluteX="329dp" />
 
     <androidx.appcompat.widget.Toolbar

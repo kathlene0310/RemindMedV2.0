@@ -31,7 +31,7 @@
         app:fabSize="normal"
         app:layout_constraintBottom_toTopOf="@+id/textViewToday"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@id/guideline51"
         app:srcCompat="@drawable/todayiconv2" />
@@ -62,8 +62,8 @@
         app:fabSize="normal"
         app:layout_constraintBottom_toTopOf="@+id/textViewHistory"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toEndOf="@+id/today_history_two"
         app:layout_constraintTop_toTopOf="@+id/guideline51"
         app:srcCompat="@drawable/historyiconv2" />
 
@@ -82,6 +82,16 @@
         app:layout_constraintStart_toEndOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
         app:srcCompat="@drawable/profileiconv2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chat_dep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/chaticonv2"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="638dp" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -175,12 +185,13 @@
         android:id="@+id/textViewToday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratbold"
         android:text="Today"
         android:textColor="#2e276c"
         android:textSize="18sp"
-        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/today_history_two" />
 
@@ -188,26 +199,40 @@
         android:id="@+id/textViewHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratbold"
         android:text="History"
         android:textColor="#2e276c"
         android:textSize="18sp"
-        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
-        app:layout_constraintStart_toEndOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toEndOf="@+id/textViewToday"
         app:layout_constraintTop_toBottomOf="@+id/home_historybtn_two" />
 
     <TextView
         android:id="@+id/textViewProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/montserratbold"
         android:text="Profile"
         android:textColor="#2e276c"
         android:textSize="18sp"
-        android:fontFamily="@font/montserratbold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/profile_history_two" />
+
+    <TextView
+        android:id="@+id/textViewProfile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="Chat"
+        android:textColor="#2e276c"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_history_two" />
 
     <TextView
