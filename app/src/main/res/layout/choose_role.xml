@@ -11,7 +11,7 @@
 
     <ImageView
         android:id="@+id/logo1"
-        android:layout_width="300dp"
+        android:layout_width="301dp"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
