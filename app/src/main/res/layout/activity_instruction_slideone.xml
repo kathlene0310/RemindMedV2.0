@@ -10,9 +10,9 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="324dp"
-        android:layout_height="297dp"
+        android:layout_height="285dp"
         android:layout_marginBottom="280dp"
-        android:scaleType="centerCrop"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,16 +20,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.396"
-        app:srcCompat="@drawable/slideone" />
+        app:srcCompat="@drawable/alarmclockv2" />
 
     <TextView
         android:id="@+id/alertSystem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
-        android:fontFamily="sans-serif"
-        android:text="Alert System"
-        android:textColor="#000000"
+        android:fontFamily="@font/montserratbold"
+        android:text="ALERT SYSTEM"
+        android:textColor="#2e276c"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/description3"
@@ -40,10 +40,10 @@
         android:id="@+id/description3"
         android:layout_width="361dp"
         android:layout_height="111dp"
-        android:fontFamily="@font/viga"
-        android:text="It has an alarm that will remind you that you need to take your medicine"
+        android:fontFamily="@font/glacialreg"
+        android:text="It has an alarm that will remind you that you need to take your medicine."
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
