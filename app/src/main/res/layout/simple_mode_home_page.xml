@@ -26,7 +26,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.234"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998" />
@@ -56,37 +56,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/imageBack_bloodpressure"
-        android:layout_width="64dp"
-        android:layout_height="68dp"
-        android:backgroundTint="#2e276c"
-        android:onClick="laterbs_To_lhm"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backarrow" />
 
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="130dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/logov2"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageBack_bloodpressure"
+        android:layout_width="42dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/iconback"
+        android:onClick="laterbs_To_lhm"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/simple_mode_home_page_header"
         android:layout_width="201dp"
         android:layout_height="91dp"
+        android:fontFamily="@font/montserratbold"
         android:text="Hello, Mina! Welcome to Simple Mode"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.633"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.001" />
 
     <TextView
         android:id="@+id/textview_view_medication"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:text="View Medications"
         android:textColor="#000000"
         android:textSize="21sp"
@@ -98,9 +106,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
-        android:fontFamily="@font/viga"
         android:text="Add Medications"
         android:textColor="#000000"
+        android:fontFamily="@font/montserratbold"
         android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="244dp" />
@@ -152,38 +160,28 @@
         app:layout_constraintGuide_percent="0.6" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/home_history_two"
+        android:id="@+id/home_history2"
+        android:layout_width="55dp"
+        android:layout_height="61dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="Home_To_Home"
+        app:backgroundTint="#82B1FF"
+        app:srcCompat="@drawable/pillicon"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/profile_history2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
         android:layout_marginBottom="32dp"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="History_To_Home"
-        app:backgroundTint="#FFFFFF"
+        app:backgroundTint="#82B1FF"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline6"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/hoome" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/profile_history_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:focusable="true"
-        android:onClick="History_To_User"
-        app:backgroundTint="#FFFFFF"
-        app:fabSize="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.715"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.952"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profileicon"
+        tools:layout_editor_absoluteX="259dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

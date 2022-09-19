@@ -1,7 +1,5 @@
 package com.example.capstone1;
 
-import static com.example.capstone1.intake_confirmation.dateFormat;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,14 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -57,7 +52,7 @@ public class home_page extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         addMed = (Button) findViewById(R.id.add_medications_btn);
         addHM = (Button) findViewById(R.id.add_measurements_btn);
-        profileBtn = findViewById(R.id.profile_history);
+        profileBtn = findViewById(R.id.profile_history2);
         changeLayout = (Button) findViewById(R.id.changeLayout);
         changeLayout2 = (Button) findViewById(R.id.changeLayout2);
         switchMeasurement = (Button) findViewById(R.id.switchMeasurement);
