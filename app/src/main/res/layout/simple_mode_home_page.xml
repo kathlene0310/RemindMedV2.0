@@ -68,7 +68,7 @@
 
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/simple_mode_home_page_header"
         android:layout_width="201dp"
         android:layout_height="91dp"
         android:text="Hello, Mina! Welcome to Simple Mode"
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/textview_view_medication"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
