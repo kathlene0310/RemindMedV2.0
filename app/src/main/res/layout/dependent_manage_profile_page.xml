@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".schedule_measurements"
+    tools:layout_editor_absoluteX="-4dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirm Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/save_bs_later2"
+        android:layout_width="247dp"
+        android:layout_height="49dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/viga"
+        android:text="Save Changes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/profile_page_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#2E276C"
+        app:fabSize="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:fontFamily="@font/viga"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/viga"
+        android:text="Change Name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/viga"
+        android:text="Change Password"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="421dp"
+        android:layout_height="92dp"
+        android:background="#2e276c"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/health_measurementstxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Dependent"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="233dp" />
+
+    <TextView
+        android:id="@+id/health_measurementstxt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Manage Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        tools:layout_editor_absoluteX="154dp" />
+
+    <ImageButton
+        android:id="@+id/healthMeasurement_back"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#2e276c"
+        android:onClick="Health_To_Home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backarrow" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginBottom="100dp"
+        android:background="#2E276C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Home_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="sched_to_home"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline51"
+        app:srcCompat="@drawable/hoome" />
+
+    <TextView
+        android:id="@+id/textViewHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Home_page_button"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Today_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="sched_to_today"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewToday"
+        app:layout_constraintTop_toBottomOf="@+id/guideline51"
+        app:srcCompat="@drawable/today"
+        tools:layout_editor_absoluteX="131dp" />
+
+    <TextView
+        android:id="@+id/textViewToday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Today_page_button"
+        tools:layout_editor_absoluteX="131dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/History_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="sched_to_history"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewHistory"
+        app:layout_constraintTop_toBottomOf="@+id/guideline51"
+        app:srcCompat="@drawable/ic_history"
+        tools:ignore="OnClick"
+        tools:layout_editor_absoluteX="223dp" />
+
+    <TextView
+        android:id="@+id/textViewHistory2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/History_page_button"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="223dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Profile_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline33"
+        app:srcCompat="@drawable/profile" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Profile_page_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/profile_page_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#2E276C"
+        app:fabSize="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline34"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/Home_page_button"
+        app:layout_constraintGuide_percent=".88"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".96" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="100dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

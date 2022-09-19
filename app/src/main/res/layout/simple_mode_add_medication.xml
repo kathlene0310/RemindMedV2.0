@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <Button
+        android:id="@+id/resetbtn2"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="92dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/viga"
+        android:text="Add Reminder"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginBottom="100dp"
+        android:background="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <TextView
+        android:id="@+id/textViewHome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="#2e276c"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageBack_bloodpressure"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#2e276c"
+        android:onClick="laterbs_To_lhm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backarrow" />
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="201dp"
+        android:layout_height="91dp"
+        android:text="Hello, Mina! Welcome to Simple Mode"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/viga"
+        android:text="Choose from existing or enter new medicine"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs"
+        android:layout_width="311dp"
+        android:layout_height="34dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="96dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="152dp"
+        android:fontFamily="@font/viga"
+        android:text="Enter number of supply"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="69dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/viga"
+        android:text="Time"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="96dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/viga"
+        android:text="Set time for the alarm reminder"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="91dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="156dp"
+        android:fontFamily="@font/viga"
+        android:text="Inventory"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="92dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="284dp"
+        android:fontFamily="@font/viga"
+        android:text="Frequency"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="96dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="284dp"
+        android:fontFamily="@font/viga"
+        android:text="Choose how frequency of the alarm"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="212dp"
+        android:fontFamily="@font/viga"
+        android:text="Choose unit"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs4"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="146dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/viga"
+        android:text="Enter how many pills or ml to take"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs2"
+        android:layout_width="159dp"
+        android:layout_height="41dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs5"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs6"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs7"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.24" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_history_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="History_To_Home"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline51"
+        app:srcCompat="@drawable/hoome" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/profile_history_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="History_To_User"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952"
+        app:srcCompat="@drawable/profile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

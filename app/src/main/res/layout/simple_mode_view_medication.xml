@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs10"
+        android:layout_width="321dp"
+        android:layout_height="88dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843"
+        app:srcCompat="@drawable/ic_edit_delete" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:fontFamily="@font/viga"
+        android:text="Medicine Name"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:fontFamily="@font/viga"
+        android:text="Monthly"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:fontFamily="@font/viga"
+        android:text="8:00 am"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:fontFamily="@font/viga"
+        android:text="Dosage"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs9"
+        android:layout_width="321dp"
+        android:layout_height="88dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652"
+        app:srcCompat="@drawable/ic_edit_delete" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:fontFamily="@font/viga"
+        android:text="Medicine Name"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:fontFamily="@font/viga"
+        android:text="Daily"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:fontFamily="@font/viga"
+        android:text="8:00 am"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:fontFamily="@font/viga"
+        android:text="Dosage"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs8"
+        android:layout_width="321dp"
+        android:layout_height="88dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@drawable/ic_edit_delete" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:fontFamily="@font/viga"
+        android:text="Medicine Name"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:fontFamily="@font/viga"
+        android:text="Monthly"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:fontFamily="@font/viga"
+        android:text="8:00 am"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:fontFamily="@font/viga"
+        android:text="Dosage"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="#2e276c"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageBack_bloodpressure"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#2e276c"
+        android:onClick="laterbs_To_lhm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backarrow" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="View Medications"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toEndOf="@+id/imageBack_bloodpressure" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <Spinner
+        android:id="@+id/frequency_set_later_bs"
+        android:layout_width="321dp"
+        android:layout_height="88dp"
+        android:background="@drawable/edittext3"
+        android:backgroundTint="#2e276c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:fontFamily="@font/viga"
+        android:text="Medicine Name"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:fontFamily="@font/viga"
+        android:text="8:00 am"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:fontFamily="@font/viga"
+        android:text="Dosage"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/viga"
+        android:text="Daily"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/ic_edit_delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
