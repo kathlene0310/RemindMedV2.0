@@ -39,16 +39,16 @@
         app:layout_constraintStart_toStartOf="@id/guideline28"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.227"
-        app:srcCompat="@drawable/clock" />
+        app:srcCompat="@drawable/slideonev2" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserratbold"
         android:text="Time to take your measurement!"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +61,7 @@
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:background="@drawable/edit_round"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/glacialreg"
         android:text="Snooze! (+15 mins)"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
@@ -79,7 +79,7 @@
         android:layout_height="49dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/editttextcancel"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/glacialreg"
         android:text="Stop"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
