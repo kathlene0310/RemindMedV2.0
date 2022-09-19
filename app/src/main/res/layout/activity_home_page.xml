@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/pillicon" />
+        app:srcCompat="@drawable/homeiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/today_history"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toEndOf="@+id/home_history"
         app:layout_constraintTop_toTopOf="@+id/guideline44"
         app:layout_constraintVertical_bias="0.746"
-        app:srcCompat="@drawable/todayicon" />
+        app:srcCompat="@drawable/todayiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/home_historybtn"
@@ -54,7 +54,7 @@
         app:layout_constraintStart_toEndOf="@+id/today_history"
         app:layout_constraintTop_toTopOf="@+id/guideline44"
         app:layout_constraintVertical_bias="0.989"
-        app:srcCompat="@drawable/historyicon" />
+        app:srcCompat="@drawable/historyiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/chat_dep"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:backgroundTint="#82B1FF"
-        app:srcCompat="@drawable/chaticon"
+        app:srcCompat="@drawable/chaticonv2"
         tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="643dp" />
 
@@ -76,7 +76,7 @@
         app:backgroundTint="#82B1FF"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/profileicon"
+        app:srcCompat="@drawable/profileiconv2"
         tools:layout_editor_absoluteX="329dp" />
 
     <androidx.appcompat.widget.Toolbar
@@ -101,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.003"
-        app:srcCompat="@drawable/pills" />
+        app:srcCompat="@drawable/pillsv2" />
 
     <ImageView
         android:id="@+id/imageView16"
