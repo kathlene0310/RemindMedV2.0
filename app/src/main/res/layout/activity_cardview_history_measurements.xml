@@ -334,7 +334,7 @@
                     android:layout_marginStart="84dp"
                     android:layout_marginTop="16dp"
                     android:text="Value"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -346,7 +346,7 @@
                     android:layout_marginStart="188dp"
                     android:layout_marginTop="16dp"
                     android:text="Time"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     app:layout_constraintStart_toEndOf="@+id/value_history_HM"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -359,7 +359,7 @@
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="16dp"
                     android:text="Date"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/measurement_history_HM"
@@ -372,7 +372,7 @@
                     android:layout_marginStart="84dp"
                     android:layout_marginTop="4dp"
                     android:text="measurement name"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/value_history_HM" />

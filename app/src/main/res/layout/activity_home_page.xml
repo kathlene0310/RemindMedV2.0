@@ -131,7 +131,7 @@
         android:background="@drawable/edit_round2"
         android:fontFamily="@font/viga"
         android:onClick="Home_To_Medication"
-        android:text="Add Medications"
+        android:text="Manage Medications"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"

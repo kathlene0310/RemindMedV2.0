@@ -5,31 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_gradient"
+
     tools:context=".main_page">
 
     <ImageView
         android:id="@+id/logo1"
         android:layout_width="577dp"
-        android:layout_height="374dp"
+        android:layout_height="370dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logov2" />
 
-    <Button
-        android:id="@+id/createacc_button"
-        android:layout_width="286dp"
-        android:layout_height="61dp"
-        android:background="@drawable/edit_roundmain"
-        android:fontFamily="@font/viga"
-        android:text="Create Account"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo1" />
+
 
     <Button
         android:id="@+id/login_button"
@@ -40,7 +29,7 @@
         android:fontFamily="@font/viga"
         android:text="Already a member? Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -57,11 +46,25 @@
         android:text="Login as a guest"
         android:onClick="Main_To_instruction"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
+        android:textColor="#2e276c"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <Button
+        android:id="@+id/createacc_button"
+        android:layout_width="286dp"
+        android:layout_height="61dp"
+        android:background="@drawable/edit_roundmain"
+        android:fontFamily="@font/viga"
+        android:text="Create Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#2e276c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
