@@ -95,10 +95,10 @@
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.001" />
 
     <TextView
         android:id="@+id/textView18"
@@ -234,6 +234,30 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="239dp" />
 
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/viga"
+        android:text="Intake"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="216dp"
+        android:fontFamily="@font/viga"
+        android:text="Unit"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="212dp" />
+
     <Spinner
         android:id="@+id/frequency_set_later_bs2"
         android:layout_width="159dp"
@@ -306,6 +330,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.6" />
 
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="98dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/logov2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/home_history_two"
         android:layout_width="wrap_content"
@@ -322,7 +354,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline51"
-        app:srcCompat="@drawable/hoome" />
+        app:srcCompat="@drawable/homeiconv2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/profile_history_two"
@@ -339,6 +371,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.952"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profileiconv2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
