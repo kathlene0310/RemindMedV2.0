@@ -69,7 +69,7 @@
         android:id="@+id/imageBack_bloodpressure"
         android:layout_width="42dp"
         android:layout_height="49dp"
-        app:srcCompat="@drawable/iconback"
+        app:srcCompat="@drawable/backarrow"
         android:onClick="laterbs_To_lhm"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
