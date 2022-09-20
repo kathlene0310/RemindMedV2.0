@@ -17,6 +17,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="101dp"
+        android:layout_height="93dp"
+        app:srcCompat="@drawable/logov2"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <ImageButton
         android:id="@+id/imageBack_bloodpressure"
         android:layout_width="64dp"
@@ -35,6 +43,7 @@
         android:text="Simple Mode"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
+        android:fontFamily="@font/montserrat"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -45,25 +54,37 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:fontFamily="@font/viga"
+        android:layout_marginStart="104dp"
+        android:fontFamily="@font/montserrat"
         android:text="Send Report every:"
         android:textColor="#000000"
         android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="380dp" />
+        tools:layout_editor_absoluteY="381dp" />
 
     <TextView
         android:id="@+id/frequency_txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:fontFamily="@font/viga"
+        android:layout_marginStart="124dp"
+        android:fontFamily="@font/montserrat"
         android:text="Dependents "
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/frequency_txt13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Enter Dependent's Email Address "
         android:textColor="#000000"
         android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="187dp" />
+        tools:layout_editor_absoluteY="218dp" />
 
     <Spinner
         android:id="@+id/frequency_set_later_bs"
@@ -97,7 +118,7 @@
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:background="@drawable/edit_round"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserrat"
         android:text="Skip"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
@@ -112,7 +133,7 @@
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:background="@drawable/editttextcancel"
-        android:fontFamily="@font/viga"
+        android:fontFamily="@font/montserrat"
         android:onClick="laterbs_To_lhm"
         android:text="Enter Simple Mode"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -124,6 +145,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/save_bs_later"
         app:layout_constraintVertical_bias="0.323" />
+
+    <TextView
+        android:id="@+id/frequency_txt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Week"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="436dp" />
 
     <Spinner
         android:id="@+id/spinner"
