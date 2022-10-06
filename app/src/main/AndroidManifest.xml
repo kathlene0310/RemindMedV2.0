@@ -18,15 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Capstone1">
         <activity
-            android:name=".ManageMedications"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Guest_FAQ"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".FAQTTS"
             android:exported="true" />

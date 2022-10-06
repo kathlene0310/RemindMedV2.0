@@ -1,5 +1,7 @@
 package com.example.capstone1;
 
+import static com.example.capstone1.intake_confirmation.dateFormat;
+
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,11 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -52,7 +57,7 @@ public class home_page extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
         addMed = (Button) findViewById(R.id.add_medications_btn);
         addHM = (Button) findViewById(R.id.add_measurements_btn);
-        profileBtn = findViewById(R.id.profile_history2);
+        profileBtn = findViewById(R.id.profile_history);
         changeLayout = (Button) findViewById(R.id.changeLayout);
         changeLayout2 = (Button) findViewById(R.id.changeLayout2);
         switchMeasurement = (Button) findViewById(R.id.switchMeasurement);
@@ -60,7 +65,7 @@ public class home_page extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Fetching Data...");
-      // progressDialog.show();
+        // progressDialog.show();
         firstname = findViewById(R.id.firstnameview);
 
         rootAuthen = FirebaseAuth.getInstance();
@@ -226,62 +231,62 @@ public class home_page extends AppCompatActivity {
         FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         fstore.document("users/"+currentFirebaseUser.getUid()).collection("New Medications")
                 .orderBy("Medication", Query.Direction.ASCENDING).addSnapshotListener(new EventListener<QuerySnapshot>() {
-            @Override
-            public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
-                if(e != null)
-                {
-                    if(progressDialog.isShowing())
-                        progressDialog.dismiss();
-                    Log.e("Firestore error", e.getMessage());
-                    return;
-                }
-                for(DocumentChange dc : queryDocumentSnapshots.getDocumentChanges())
-                {
-                    if(dc.getType() == DocumentChange.Type.ADDED) {
+                    @Override
+                    public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
+                        if(e != null)
+                        {
+                            if(progressDialog.isShowing())
+                                progressDialog.dismiss();
+                            Log.e("Firestore error", e.getMessage());
+                            return;
+                        }
+                        for(DocumentChange dc : queryDocumentSnapshots.getDocumentChanges())
+                        {
+                            if(dc.getType() == DocumentChange.Type.ADDED) {
 
-                        medication_info m = dc.getDocument().toObject(medication_info.class);
-                        m.setId(dc.getDocument().getId());
-                        myArrayList.add(m);
+                                medication_info m = dc.getDocument().toObject(medication_info.class);
+                                m.setId(dc.getDocument().getId());
+                                myArrayList.add(m);
 
+                            }
+                            myAdapter.notifyDataSetChanged();
+                            if(progressDialog.isShowing()) {
+                                progressDialog.dismiss();
+                            }
+                        }
                     }
-                    myAdapter.notifyDataSetChanged();
-                    if(progressDialog.isShowing()) {
-                        progressDialog.dismiss();
-                    }
-                }
-            }
-        });
+                });
     }
 
     private void measureEventChangeListener() {
         FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         fstore.document("users/"+currentFirebaseUser.getUid()).collection("Health Measurement Alarm")
                 .orderBy("HMName", Query.Direction.ASCENDING).addSnapshotListener(new EventListener<QuerySnapshot>() {
-            @Override
-            public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
-                if(e != null)
-                {
-                    if(progressDialog.isShowing())
-                        progressDialog.dismiss();
-                    Log.e("Firestore error", e.getMessage());
-                    return;
-                }
-                for(DocumentChange dc : queryDocumentSnapshots.getDocumentChanges())
-                {
-                    if(dc.getType() == DocumentChange.Type.ADDED) {
+                    @Override
+                    public void onEvent(@Nullable QuerySnapshot queryDocumentSnapshots, @Nullable FirebaseFirestoreException e) {
+                        if(e != null)
+                        {
+                            if(progressDialog.isShowing())
+                                progressDialog.dismiss();
+                            Log.e("Firestore error", e.getMessage());
+                            return;
+                        }
+                        for(DocumentChange dc : queryDocumentSnapshots.getDocumentChanges())
+                        {
+                            if(dc.getType() == DocumentChange.Type.ADDED) {
 
-                        measurement_info_today m = dc.getDocument().toObject(measurement_info_today.class);
-                        m.setId(dc.getDocument().getId());
-                        myMeasurementArrayList.add(m);
+                                measurement_info_today m = dc.getDocument().toObject(measurement_info_today.class);
+                                m.setId(dc.getDocument().getId());
+                                myMeasurementArrayList.add(m);
 
+                            }
+                            measurementAdapter.notifyDataSetChanged();
+                            if(progressDialog.isShowing()) {
+                                progressDialog.dismiss();
+                            }
+                        }
                     }
-                    measurementAdapter.notifyDataSetChanged();
-                    if(progressDialog.isShowing()) {
-                        progressDialog.dismiss();
-                    }
-                }
-            }
-        });
+                });
     }
 
 

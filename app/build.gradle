@@ -75,7 +75,7 @@ dependencies {
     implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
     implementation 'com.applandeo:material-calendar-view:1.7.0'
     implementation 'androidx.multidex:multidex:2.0.1'
-
+    implementation 'io.grpc:grpc-okhttp:1.32.2'
 
 
 }
